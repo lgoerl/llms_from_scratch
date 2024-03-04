@@ -5,9 +5,12 @@ verify_ssl = true
 
 [dev-packages]
 pytest = "*"
+ipykernel = "*"
 
 [packages]
 numpy = "*"
+tiktoken = "*"
+torch = "*"
 
 [requires]
 python_version = "3.11.3"
